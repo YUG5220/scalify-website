@@ -1,0 +1,390 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F8FAFC;
+    color: #0F172A;
+}
+
+header {
+    background: #0F172A;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(37, 99, 235, 0.7)),
+        url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #38BDF8;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.section {
+    padding: 60px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Full Page Theme */
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#0F172A,#2563EB);
+}
+
+/* Header */
+header{
+    background:rgba(255,255,255,0.08);
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h2{
+    color:white;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+/* Center Contact Section */
+.contact-section{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Contact Box */
+.contact-box{
+    background:white;
+    width:420px;
+    padding:40px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,0.25);
+}
+
+.contact-box h1{
+    color:#0F172A;
+    margin-bottom:10px;
+}
+
+.contact-box p{
+    color:gray;
+    margin-bottom:25px;
+}
+
+/* Vertical Inputs */
+.contact-box input,
+.contact-box textarea{
+    width:100%;
+    padding:14px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+    outline:none;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus{
+    border-color:#2563EB;
+}
+
+.contact-box textarea{
+    height:120px;
+    resize:none;
+}
+
+/* Button */
+.contact-box button{
+    width:100%;
+    padding:14px;
+    margin-top:10px;
+    background:linear-gradient(135deg,#2563EB,#38BDF8);
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.contact-box button:hover{
+    opacity:0.9;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    color:white;
+    padding:15px;
+}
+
+/* Theme Added Only */
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#0F172A,#2563EB);
+}
+
+header{
+    background:rgba(255,255,255,0.08);
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h2{
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.section{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.section h1{
+    color:white;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.20);
+}
+
+.card h3{
+    color:#2563EB;
+}
+
+.card p{
+    color:#555;
+}
+
+.card img{
+    width:100%;
+    border-radius:12px;
+    margin-top:10px;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    padding:15px;
+}
+
+/* Same Theme Added */
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#0F172A,#2563EB);
+}
+
+header{
+    background:rgba(255,255,255,0.08);
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h2{
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.section{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.section h1{
+    color:white;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    width:260px;
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.20);
+}
+
+.card h2{
+    color:#0F172A;
+}
+
+.card h3{
+    color:#2563EB;
+    font-size:28px;
+    margin:15px 0;
+}
+
+.card p{
+    color:#555;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    padding:15px;
+}
+
+.logo-box{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo-box img{
+width:45px;
+height:45px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.logo-box span{
+color:white;
+font-size:28px;
+font-weight:bold;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+text-align:center;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+display:block;
+margin:10px 0;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:18px;
+padding:0 15px;
+}
+
+.section{
+padding:30px 15px;
+}
+
+.cards{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:90%;
+}
+
+img{
+width:100%;
+height:auto;
+}
+
+input, textarea{
+width:90%;
+padding:10px;
+}
+
+}
