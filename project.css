@@ -94,71 +94,72 @@ nav a{
     text-decoration:none;
 }
 
-/* Center Contact Section */
-.contact-section{
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+/* Contact Page */
+
+.contact-container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
 }
 
-/* Contact Box */
 .contact-box{
-    background:white;
-    width:420px;
-    padding:40px;
-    border-radius:18px;
-    text-align:center;
-    box-shadow:0 15px 35px rgba(0,0,0,0.25);
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,0.08);
 }
 
-.contact-box h1{
-    color:#0F172A;
-    margin-bottom:10px;
+.contact-box h2{
+color:#0a1f44;
+margin-top:0;
 }
 
-.contact-box p{
-    color:gray;
-    margin-bottom:25px;
-}
-
-/* Vertical Inputs */
 .contact-box input,
 .contact-box textarea{
-    width:100%;
-    padding:14px;
-    margin:10px 0;
-    border:1px solid #ddd;
-    border-radius:10px;
-    font-size:15px;
-    outline:none;
-}
-
-.contact-box input:focus,
-.contact-box textarea:focus{
-    border-color:#2563EB;
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:16px;
 }
 
 .contact-box textarea{
-    height:120px;
-    resize:none;
+height:130px;
+resize:none;
 }
 
-/* Button */
 .contact-box button{
-    width:100%;
-    padding:14px;
-    margin-top:10px;
-    background:linear-gradient(135deg,#2563EB,#38BDF8);
-    color:white;
-    border:none;
-    border-radius:10px;
-    font-size:16px;
-    cursor:pointer;
+background:#2563eb;
+color:white;
+padding:12px;
+border:none;
+border-radius:8px;
+width:100%;
+cursor:pointer;
 }
 
 .contact-box button:hover{
-    opacity:0.9;
+background:#1747b8;
+}
+
+.whatsapp{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+border-radius:8px;
+margin-top:15px;
+}
+
+@media(max-width:768px){
+.contact-container{
+grid-template-columns:1fr;
+}
 }
 
 /* Footer */
